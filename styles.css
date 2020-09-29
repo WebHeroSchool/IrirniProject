@@ -95,13 +95,13 @@
 }
 
 .main {
-    padding: 0 63% 100px 0;
+    padding: 0 63% 200px 0;
     background: no-repeat center right url(img/mainImg.svg);
 }
 
 .main__title {
     margin-bottom: 0 0 40px 0;
-    font: bold 50px/65px pt_serifbold, arial, helvetica, sans-serif;
+    font: bold 66px/87px pt_serifbold, arial, helvetica, sans-serif;
 }
 
 .main__title-text_highlight {
@@ -110,14 +110,14 @@
 
 .main__subtitle {
     margin-bottom: 0 0 41px 0;
-    font: 18px/21px robotomedium, arial, helvetica, sans-serif;
+    font: 22px/26px robotomedium, arial, helvetica, sans-serif;
 }
 
 .main__button {
     display: inline-block;
-    padding: 14px 16px;
+    padding: 18px 21px;
     text-decoration: none;
-    font: 14px/16px robotomedium, arial, helvetica, sans-serif;
+    font: 18px/21px robotomedium, arial, helvetica, sans-serif;
     color: #fff;
     background: #0056EC;
     border-radius: 4px;
