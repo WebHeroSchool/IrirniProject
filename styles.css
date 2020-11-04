@@ -297,13 +297,13 @@
   }
 
   .burger-menu__checkbox:checked ~ .burger-menu__btn .burger-menu__icon::after {
-    top: 0px;
+    top: 0;
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
   }
 
   .burger-menu__checkbox:checked ~ .burger-menu__btn .burger-menu__icon::before {
-    top: 0px;
+    top: 0;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
   }
