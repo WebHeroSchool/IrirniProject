@@ -257,7 +257,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 0px;
+    top: 0;
     left: 0;
     right: 0;
     z-index: 10;
@@ -274,16 +274,15 @@
   }
 
   .burger-menu__item {
-    font-family: robotomedium;
+    font-family: robotomedium, arial, helvetica, sans-serif;
     font-size: 30px;
     padding-bottom: 24px;
-    color: 000000;
   }
 
   .burger-menu__link {
     text-decoration: none;
-    color: #000000;
-}
+    color: #000;
+  }
 
   .burger-menu__checkbox:checked ~ .burger-menu__div {
     opacity: 1;
@@ -313,7 +312,7 @@
     display: none;
   }
 
-    .header {
+  .header {
     margin-bottom: 0;
   }
 
