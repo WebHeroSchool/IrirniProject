@@ -200,6 +200,7 @@
 
   .header {
     margin: auto;
+    margin-bottom: 0;
     width: 96%;
   }
 
@@ -315,10 +316,6 @@
 
   .menu__item {
     display: none;
-  }
-
-  .header {
-    margin-bottom: 0;
   }
 
   .main {
