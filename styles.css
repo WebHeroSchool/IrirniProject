@@ -131,8 +131,7 @@
   color: #fff;
   background: #0056ec;
   border-radius: 4px;
-  transition: opacity .5s;
-  background-image: linear-gradient(to left,transparent,transparent 50%,#00ad9f 50%,#00ad9f);
+  background-image: linear-gradient(to left, transparent, transparent 50%, #00ad9f 50%, #00ad9f);
   background-position: 100% 0;
   background-size: 200% 100%;
   transition: all .25s ease-in;
@@ -140,7 +139,7 @@
 
 .main__button:hover {
   background-position: 0 0;
-  color:#000;
+  color: #000;
 }
 
 @media (max-width: 1366px) {
