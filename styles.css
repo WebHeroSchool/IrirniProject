@@ -108,9 +108,9 @@
 }
 
 @keyframes shadow {
-  from {text-shadow: 0 0 3px black;}
-  50% {text-shadow: 0 0 10px black;}
-  to {text-shadow: 0 0 3px black;}
+  from { text-shadow: 0 0 3px black; }
+  50% { text-shadow: 0 0 10px black; }
+  to { text-shadow: 0 0 3px black; }
 }
 
 .main__title {
