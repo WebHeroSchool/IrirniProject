@@ -56,7 +56,6 @@
   font: 500 18px/21px robotomedium, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
-  transition: opacity .5s;
 }
 
 .menu__item:last-child {
@@ -86,7 +85,7 @@
 }
 
 .menu__item:hover {
-  opacity: 0.5;
+  font-weight: bold;
 }
 
 .menu__item:hover:after, .menu__item_active:after {
@@ -108,10 +107,17 @@
   background: no-repeat top right url(img/mainImg.svg);
 }
 
+@keyframes shadow {
+  from { text-shadow: 0 0 3px black; }
+  50% { text-shadow: 0 0 10px black; }
+  to { text-shadow: 0 0 3px black; }
+}
+
 .main__title {
   padding-top: 70px;
   margin: 0 0 40px 0;
   font: bold 66px/87px pt_serifbold, arial, helvetica, sans-serif;
+  animation: shadow  2s infinite ease-in-out;
 }
 
 .main__title-text_highlight {
@@ -132,11 +138,15 @@
   color: #fff;
   background: #0056ec;
   border-radius: 4px;
-  transition: opacity .5s;
+  background-image: linear-gradient(to left, transparent, transparent 50%, #00ad9f 50%, #00ad9f);
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition: all .25s ease-in;
 }
 
 .main__button:hover {
-  opacity: .5;
+  background-position: 0 0;
+  color: #000;
 }
 
 @media (max-width: 1366px) {
